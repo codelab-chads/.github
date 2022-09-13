@@ -14,4 +14,6 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          output_action: gist
+          committer_gist: 03c1b15c2768fddab4cd20674bafbb95
           token: ${{ secrets.METRICS_TOKEN }}
