@@ -22,6 +22,8 @@ jobs:
           #  - read:user     (for user related data)
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
+          output_action: gist
+          committer_gist: 03c1b15c2768fddab4cd20674bafbb95
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
